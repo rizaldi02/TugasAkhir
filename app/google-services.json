@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "335117266161",
+    "firebase_url": "https://jadwal-d475b.firebaseio.com",
+    "project_id": "jadwal-d475b",
+    "storage_bucket": "jadwal-d475b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335117266161:android:a8c0a81f6fb7697b",
+        "android_client_info": {
+          "package_name": "com.example.rizaldi.jadwalpelajaran"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335117266161-9m0pd2qaq364qubqapu23enai9nle943.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6K4Lkh4nv6bTm_-q8Rm_Jylkv-gJtuxI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

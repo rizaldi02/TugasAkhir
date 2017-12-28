@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rizaldi.jadwalpelajaran.TambahActivity">
+
+    <EditText
+        android:id="@+id/tambah_makul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Mata Kuliah"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/tambah_hari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Hari Pelajaran"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/tambah_jam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Waktu mulai - selesai"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/tambah_ruangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Ruangan"
+        android:inputType="text" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/colorPrimary"
+        android:text="tambah"
+        android:onClick="tambah"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
